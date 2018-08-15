@@ -48,7 +48,7 @@ def deleteAndEarn2(self, nums):
     Time :
       O(n)*1pass + O(max(n))*2passes
     Space:
-      O(1)
+      O(max(n))
     """
     if not nums: return 0
     counts = {}
